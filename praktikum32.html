@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body style="background-color: rgb(253, 179, 243)">
+    <!-- Start Div Header Navigator -->
+    <div
+      style="
+        padding: 2%;
+        background-color: rgb(255, 0, 242);
+        vertical-align: middle;
+        border: solid 1px;
+      "
+    >
+      <nav>
+        <table style="width: 100%">
+          <tr style="text-align: center">
+            <td style="border-right: solid 2px">
+              <a href="#">HOME</a>
+            </td>
+            <td style="border-right: solid 2px">
+              <a href="#">Generate Link</a>
+            </td>
+            <td style="border-right: solid 2px">
+              <a href="#">Transacsion History</a>
+            </td>
+            <td style="border-right: solid 2px">
+              <a href="# ">Policy</a>
+            </td>
+            <td>
+              <a href="#">Logout</a>
+            </td>
+          </tr>
+        </table>
+      </nav>
+    </div>
+    <!-- end head navigator bar -->
+
+    <!-- main left container -->
+    <div style="padding: 20px">
+      <div style="float: left">
+        <img
+          style="border: solid 2px; width: 300px"
+          src="https://apollo-singapore.akamaized.net/v1/files/yyq5n7jcq88i2-ID/image;s=850x0"
+          alt="Foto Barang"
+        />
+      </div>
+      <!-- end main left container -->
+
+      <!-- mein right countainer -->
+      <div style="display: flex; margin-left: 400px">
+        <fieldset style="border: 0">
+          <table>
+            <tr>
+              <td>
+                <label for="title"><b>Title Here</b></label>
+              </td>
+              <td><b>:</b></td>
+              <td><input type="text" id="title" /></td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top">
+                <label for="title"><b>Description</b></label>
+              </td>
+              <td style="vertical-align: top"><b>:</b></td>
+              <td>
+                <textarea
+                  name="description"
+                  id="description"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="anumber"><b>Account Number</b></label>
+              </td>
+              <td><b>:</b></td>
+              <td>
+                <input type="text" id="anumber" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="bank"><b>Bank</b></label>
+              </td>
+              <td>:</td>
+              <td>
+                <select name="bank" id="bank">
+                  <option value="bank1">Bank Syariah</option>
+                  <option value="bank2">Bank Mandiri</option>
+                  <option value="bank3">Bank Bankthut</option>
+                  <option value="bank4">Bank Sejahterah</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="aholder"><b>Account Holder</b></label>
+              </td>
+              <td><b>:</b></td>
+              <td><input type="text" id="aholder" /></td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top">
+                <label for="transaction"><b>Transaction</b></label>
+              </td>
+              <td style="vertical-align: top"><b>:</b></td>
+              <td>
+                <select name="trinp" id="trinp">
+                  <option value="tr1">1</option>
+                  <option value="tr2">2</option>
+                  <option value="tr3">3</option>
+                  <option value="tr4">4</option>
+                  <option value="tr5">5</option>
+                </select>
+                <p>
+                  *if transaction is 3 person, choose 3 form the dro-down list
+                </p>
+                <div style="color: rgb(76, 0, 255)">
+                  <input type="checkbox" id="chk" value="mobile" />
+                  <label for="chk1">Send to Mobile Phone</label>
+                  <br />
+                  <input type="checkbox" id="chk2" value="email" />
+                  <label for="chk2">Send To Email</label>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="mphone"><b>Send to Mobile Phone</b></label>
+              </td>
+              <td><b>:</b></td>
+              <td><input type="text" id="mphone" /></td>
+            </tr>
+            <tr>
+              <td>
+                <label for="sndemail"><b>Send to Email</b></label>
+              </td>
+              <td><b>:</b></td>
+              <td><input type="email" id="sndemail" /></td>
+            </tr>
+            <tr>
+              <td colspan="3" align="center">
+                <form
+                  action="https://www.w3schools.com/html/html_table_colspan_rowspan.asp"
+                  target="blank"
+                >
+                  <button
+                    style="
+                      background-color: rgb(255, 15, 15);
+                      color: white;
+                      width: 100%;
+                    "
+                  >
+                    SUBMIT
+                  </button>
+                </form>
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+      </div>
+      <!-- end main right countainer -->
+    </div>
+  </body>
+</html>
